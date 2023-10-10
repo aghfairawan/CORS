@@ -27,8 +27,8 @@ app.use((req, res, next) => {
 });
 
 // Define allowed origins for clients
-const clientXOrigin = 'https://glistening-salamander-5a5ca7.netlify.app';
-const clientYOrigin = 'https://zingy-praline-9ba62e.netlify.app';
+const clientXOrigin = 'https://client-x.netlify.app';
+const clientYOrigin = 'https://client-y.netlify.app';
 
 // Configure CORS for Client X
 const corsOptionsClientX = {

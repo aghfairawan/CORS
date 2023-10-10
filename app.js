@@ -27,8 +27,8 @@ app.use((req, res, next) => {
 });
 
 // Define allowed origins for clients
-const clientXOrigin = 'http://localhost:7000';
-const clientYOrigin = 'http://localhost:8000';
+const clientXOrigin = 'https://glistening-salamander-5a5ca7.netlify.app/client-x';
+const clientYOrigin = 'https://glistening-salamander-5a5ca7.netlify.app/client-y';
 
 // Configure CORS for Client X
 const corsOptionsClientX = {
